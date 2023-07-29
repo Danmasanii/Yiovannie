@@ -1,2 +1,2 @@
 # Yiovannie-Beads
-### [https://danmasanii.github.io/Yiovannie/](preview)
+### [Yiovannie](https://danmasanii.github.io/Yiovannie/)
