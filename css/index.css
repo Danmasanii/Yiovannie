@@ -139,7 +139,7 @@ main {
 }
 
 .card-container:hover{
-  margin-top: rem;
+  border: 1rem solid green;
 }
 
 .card-container .card {
