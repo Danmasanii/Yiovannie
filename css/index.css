@@ -139,7 +139,7 @@ main {
 }
 
 .card-container:hover{
-  margin-top: 3rem;
+  margin-top: rem;
 }
 
 .card-container .card {
