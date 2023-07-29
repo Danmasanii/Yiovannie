@@ -109,7 +109,7 @@ ul li a:hover {
   text-align: center;
 }
 
-.header .icons div:hover {
+.header .iconsdiv:hover {
   background: #eee;
   color: var(--slate);
   margin: 2px;
