@@ -290,7 +290,7 @@ footer .copyright {
   .card-container {
     margin: 4.5rem auto;
   }
-  .card-container:hover {
+  .cardcontainer:hover {
     width: 310px;
     height: 210px;
   }
@@ -310,7 +310,7 @@ footer .copyright {
   .card-container {
     margin: 4.5rem auto;
   }
-  .card-container:hover {
+  .cardcontainer:hover {
     width: 310px;
     height: 210px;
   }
