@@ -139,7 +139,7 @@ main {
 }
 
 .card-container:h{
-  border: 1rem solid green;
+  border: 1rem solid red;
 }
 
 .card-container .card {
