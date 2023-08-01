@@ -282,7 +282,7 @@ footer .copyright {
 
 /* Media Query*/
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 375px) {
   main {
     display: flex;
     flex-direction: column;
@@ -302,7 +302,7 @@ footer .copyright {
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (min-width: 414px) {
   main {
     display: flex;
     flex-direction: column;
