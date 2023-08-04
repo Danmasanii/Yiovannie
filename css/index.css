@@ -48,78 +48,6 @@ ul li a:hover {
   border-radius: 5px;
   border: 1px solid chartreuse;
 }
-.navbar header {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: 70px;
-  color: chartreuse;
-  background: linear-gradient(45deg, rgb(31, 150, 114), 70%, #295691);
-}
-.header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 2rem 9%;
-  background: var(--slate);
-  box-shadow: var(--box-shadow);
-}
-
-.header .logo {
-  font-size: 2.5rem;
-  font-weight: bolder;
-  color: #fff;
-}
-
-.header .logo i {
-  color: #fff;
-}
-
-.header .navbar {
-  margin: auto;
-}
-
-.header .navbar a {
-  font-size: 2rem;
-  margin: 1rem;
-  color: var(--light);
-}
-
-.header .navbar a:hover {
-  color: #fff;
-}
-
-.header .icons div {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  width: 7.5rem;
-  padding: 0;
-  background: var(--slate);
-  color: #eee;
-  font-size: 1.5rem;
-  margin: 0 1rem;
-  cursor: pointer;
-  text-align: center;
-}
-
-.header .icons div:hover {
-  background: #eee;
-  color: var(--slate);
-  margin: 2px;
-  padding: 0;
-  outline: var(--outline-hover);
-  outline-offset: 0.1rem;
-}
-header .header-wrapper {
-  padding: 0 1rem;
-}
 main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
@@ -280,16 +208,14 @@ footer .copyright {
     flex-direction: column;
     margin: auto;
   }
-  .header .navbar a {
+  .navbar ul li{
   font-size: 1rem;
   margin: auto;
   color: var(--light);
     }
   .card-container {
-    margin: 4.5rem auto;
+    margin: 3rem auto;
   }
-
-
   .news-letter-wrapper {
     margin-bottom: 0;
     margin-top: 4.5rem;
@@ -302,7 +228,7 @@ footer .copyright {
     flex-direction: column;
     margin: auto;
   }
-  .header .navbar a {
+  .navbar ul li{
   font-size: 1rem;
   margin: auto;
   color: var(--light);
