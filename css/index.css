@@ -280,6 +280,11 @@ footer .copyright {
     flex-direction: column;
     margin: auto;
   }
+  .header .navbar a {
+  font-size: 1rem;
+  margin: auto;
+  color: var(--light);
+    }
   .card-container {
     margin: 4.5rem auto;
   }
@@ -296,6 +301,11 @@ footer .copyright {
     display: flex;
     flex-direction: column;
     margin: auto;
+  }
+  .header .navbar a {
+  font-size: 1rem;
+  margin: auto;
+  color: var(--light);
   }
   .card-container {
     margin: 4.5rem auto;
