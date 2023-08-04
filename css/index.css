@@ -5,7 +5,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 html {
-  transition: all 3s ease-in-out;
+  transition: all 1ms ease-in-out;
 }
 body {
   background: #eee;
@@ -21,7 +21,6 @@ body {
   background-color: rgba(230, 233, 235, 0.1);
   background-color: rgba(210, 221, 228, 0.2);
   background: linear-gradient(45deg, rgb(31, 150, 114), 50%, #295691);
-  background-color: #ff4b2b;
   box-shadow: 0px 1px 0px 1px #000;
   box-shadow: 0px 1px 5px 0px rgba(170, 170, 170, 1);
 }
@@ -110,7 +109,7 @@ ul li a:hover {
   text-align: center;
 }
 
-.header .iconsdiv:hover {
+.header .icons div:hover {
   background: #eee;
   color: var(--slate);
   margin: 2px;
@@ -139,9 +138,7 @@ main {
   box-shadow: 0px 1px 5px 0px rgba(170, 170, 170, 1);
 }
 
-.card-container:h{
-  border: 1rem solid red;
-}
+
 
 .card-container .card {
   padding: 15px;
@@ -175,12 +172,7 @@ main {
   padding: 3px 4px;
   text-decoration: none;
 }
-.card .content a:hover {
-  color: rgb(255, 255, 255);
-  border: 1px solid #fff;
-  border-radius: 5px;
-  background: linear-gradient(45deg, rgb(31, 150, 114), 70%, #295691);
-}
+
 .news-letter-wrapper {
   display: flex;
   justify-content: center;
@@ -282,7 +274,7 @@ footer .copyright {
 
 /* Media Query*/
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
   main {
     display: flex;
     flex-direction: column;
@@ -291,10 +283,7 @@ footer .copyright {
   .card-container {
     margin: 4.5rem auto;
   }
-  .cardcontainer:hover {
-    width: 310px;
-    height: 210px;
-  }
+
 
   .news-letter-wrapper {
     margin-bottom: 0;
@@ -302,7 +291,7 @@ footer .copyright {
   }
 }
 
-@media screen and (min-width: 414px) {
+@media screen and (max-width: 414px) {
   main {
     display: flex;
     flex-direction: column;
@@ -311,10 +300,7 @@ footer .copyright {
   .card-container {
     margin: 4.5rem auto;
   }
-  .cardcontainer:hover {
-    width: 310px;
-    height: 210px;
-  }
+
 
   .news-letter-wrapper {
     margin-bottom: 0;
