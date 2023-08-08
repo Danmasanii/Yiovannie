@@ -42,7 +42,7 @@ ul li a {
   margin: auto;
   text-transform: uppercase;
 }
-ul li a:hover {
+ul li a: {
   background-color: red;
   background: linear-gradient(45deg, rgb(31, 150, 114), 50%, #295691);
   border-radius: 5px;
