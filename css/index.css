@@ -136,8 +136,7 @@ main {
   padding: 6px 1rem;
   border: rgba(76, 76, 180, 0.5) 1px solid;
   border-radius: 0.2rem;
-  background: linear-gradient(45deg, rgb(31, 150, 114), 50%, #295691);
-  background-color: #ff4b2b;
+   background-color: #ff4b2b;
   opacity: 0.8;
   cursor: pointer;
 }
