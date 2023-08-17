@@ -137,6 +137,7 @@ main {
   border: rgba(76, 76, 180, 0.5) 1px solid;
   border-radius: 0.2rem;
   background: linear-gradient(45deg, rgb(31, 150, 114), 50%, #295691);
+  background-color: #ff4b2b;
   opacity: 0.8;
   cursor: pointer;
 }
@@ -158,7 +159,7 @@ footer .copyright {
   display: flex;
   justify-content: space-between;
   text-transform: capitalize;
-  padding: 2rem;
+  padding: 20px;
 }
 .footer-wrapper .contact {
   font-variant: small-caps;
@@ -182,7 +183,7 @@ footer .copyright {
 }
 
 .footer-wrapper ul {
-  padding: 1rem 0 0 0;
+  padding: 10px 0 0 0;
   list-style-type: none;
   color: rgba(255, 255, 255, 0.6);
   color: #ddd;
