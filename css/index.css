@@ -16,13 +16,17 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 10px;
-  background-color: #ff4b2b;
-  box-shadow: 0px 1px 0px 1px #000;
+  padding: 15px 20px;
+  padding: 0.5rem;
+  background: #ff416c;
+  background: -webkit-linear-gradient(to right, #ff4b2b, #ff416c);
+  background: linear-gradient(to right, #ff4b2b, #ff416c);
+  background-repeat: no-repeat;
+  background-size: cover;
   box-shadow: 0px 1px 5px 0px rgba(170, 170, 170, 1);
 }
 .navbar .brand {
- 
+  color: #295691;
   color: #fff;
 }
 .navbar .links ul {
@@ -30,16 +34,21 @@ body {
   list-style-type: none;
 }
 ul li {
-  padding: 5px 7px;
+  padding: 3px 1px;
 }
 ul li a {
   text-decoration: none;
   color: #fff;
-  padding: 3px 10px;
-  margin: auto;
+  padding: 2px;
   text-transform: uppercase;
 }
-
+ul li a:hover {
+  background: #ff416c;
+  background: -webkit-linear-gradient(to right, #ff4b2b, #ff416c);
+  background: linear-gradient(to right, #ff4b2b, #ff416c);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
@@ -50,15 +59,18 @@ main {
   margin: 4.5rem auto;
   width: 300px;
   height: 200px;
-  background-color: #ff4b2b;
+  background: linear-gradient(45deg, rgb(31, 150, 114), 50%, #295691);
+  background: #ff416c;
+  background: -webkit-linear-gradient(to right, #ff4b2b, #ff416c);
+  background: linear-gradient(to right, #ff4b2b, #ff416c);
+  background-repeat: no-repeat;
+  background-size: cover;
   border-bottom: 0;
   border-radius: 0.5rem 0.5rem 0 0;
   box-shadow: 0 2px 2px 0 #ccc;
   transition-duration: 0.5s;
   box-shadow: 0px 1px 5px 0px rgba(170, 170, 170, 1);
 }
-
-
 
 .card-container .card {
   padding: 15px;
@@ -108,12 +120,10 @@ main {
 }
 .news-letter h3 {
   padding: 5px 0;
-  color: rgb(76, 76, 180);
-  color: #295691;
+  color: #ff416c;
   font-size: 2rem;
 }
 .news-letter p {
-  color: rgb(60, 61, 58);
   color: #295691;
   padding: 4px 0;
   font-size: 1.1rem;
@@ -127,16 +137,21 @@ main {
 }
 .news-letter input:focus {
   outline: none;
-  border: rgba(76, 76, 180, 0.5) 1px solid;
+  border: #ff416c 1px solid;
 }
 .news-letter .btn {
   color: #fff;
   width: 100px;
   margin-top: 0.3rem;
   padding: 6px 1rem;
-  border: rgba(76, 76, 180, 0.5) 1px solid;
+  border: none;
   border-radius: 0.2rem;
-   background-color: #ff4b2b;
+  background: linear-gradient(45deg, rgb(31, 150, 114), 50%, #295691);
+  background: #ff416c;
+  background: -webkit-linear-gradient(to right, #ff4b2b, #ff416c);
+  background: linear-gradient(to right, #ff4b2b, #ff416c);
+  background-repeat: no-repeat;
+  background-size: cover;
   opacity: 0.8;
   cursor: pointer;
 }
@@ -147,18 +162,21 @@ footer {
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  padding: 0.5rem;
+  padding: 0.3rem;
 }
-footer .copyright {
-  color: rgba(255, 255, 255, 0.788);
-  text-align: center;
-  text-transform: capitalize;
-}
+
 .footer-wrapper {
   display: flex;
-  justify-content: space-between;
+  padding: 5px;
+}
+footer .copyright {
+  color: #ff416c;
+  padding: 5px;
+  text-align: center;
+}
+footer .copyright span {
+  font-style: italic;
   text-transform: capitalize;
-  padding: 20px;
 }
 .footer-wrapper .contact {
   font-variant: small-caps;
@@ -169,22 +187,20 @@ footer .copyright {
 .footer-wrapper .contact li img {
   color: #fff;
   width: 15px;
-  margin-right: 3px;
+  margin-right: 1px;
 }
-.footer-wrapper .terms {
-  display: none;
+.footer-wrapper .terms a {
+  color: #ff416c;
+  text-decoration: none;
 }
 .footer-wrapper h3 {
-  color: rgb(143, 143, 143);
-  color: chartreuse;
   color: red;
-  width: 110px;
+  color: #ff416c;
 }
 
 .footer-wrapper ul {
-  padding: 10px 0 0 0;
+  padding: 1rem 0 0 0;
   list-style-type: none;
-  color: rgba(255, 255, 255, 0.6);
   color: #ddd;
 }
 
@@ -200,12 +216,10 @@ footer .copyright {
     flex-direction: column;
     margin: auto;
   }
-  .navbar{background-color: #ff4b2b;}
-  .navbar ul li{
-  font-size: 10px;
-  margin: auto;
-  color: var(--light);
-    }
+  .navbar ul li {
+    font-size: 1rem;
+    margin: auto;
+  }
   .card-container {
     margin: 3rem auto;
   }
@@ -221,19 +235,17 @@ footer .copyright {
     flex-direction: column;
     margin: auto;
   }
-  navbar{background-color: #ff4b2b;}
-  .navbar ul li{
-  font-size: 1rem;
-  margin: auto;
-  color: var(--light);
+  .navbar ul li {
+    font-size: 1rem;
+    margin: auto;
+    color: var(--light);
   }
   .card-container {
     margin: 4.5rem auto;
   }
 
-
   .news-letter-wrapper {
     margin-bottom: 0;
     margin-top: 4.5rem;
   }
-}
+  }
