@@ -66,7 +66,7 @@ a {
   letter-spacing: 0.2rem;
   text-decoration: none;
   color: white;
-  padding: 20px;
+  padding: 10px;
   display: block;
 }
 #header .nav-list ul a::after {
@@ -96,7 +96,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 100;
+  z-index: 1000;
   cursor: pointer;
   transform: scale(0.8);
 }
