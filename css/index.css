@@ -11,12 +11,13 @@ body {
   background: #ffffff;
   margin: 0;
   padding: 0;
+  transition: all 1s ease-in-out;
 }
 
 header p {
   color: #818080;
   font-size: 3rem;
-  text-align: center;
+  text-align: justify;
   padding: 10px;
   margin: 5px;
 }
@@ -35,23 +36,29 @@ header img {
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
-  padding: 15px 0;
+  padding: 15px;
+  text-align: justify;
 }
 .color-combo li {
+  
   list-style-type: none;
   color: #fff;
+  text-align: center;
 }
 section {
   width: 100%;
 }
 section img {
+  width: 98%;
   width: 100%;
+  /* border-radius: 0 15px 15px 0; */
 }
 section p {
   color: #818080;
   font-size: 2rem;
-  padding: 10px 0;
-  text-align: center;
+  padding: 10px;
+  text-align: justify;
+  font-weight: bolder;
 }
 main,
 .img-container {
@@ -59,32 +66,34 @@ main,
   grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
   gap: 0.1rem;
   margin-bottom: 5rem;
-  padding: 10px;
 }
 .p-card {
   width: 100%;
   height: auto;
   margin: 5px 0;
   padding: 5px;
-  /* background-color: #000; */
   border-radius: 0.5rem;
-  /* box-shadow: 0px 1px 1px 2px #ddd; */
+  /* box-shadow: 0px 1px 1px 1px #ddd; */
 }
+
 .p-card img {
-  border-radius: 0.5rem;
-  width: 100%;
+  border-radius: 0 15px 15px 0;
+  width: 90%;
 }
 .p-card h3 {
   color: #295691;
+  z-index: 1000;
+  font-size: large;
 }
 .p-card p {
   color: #ff416c;
-  font-weight: 600;
+  font-size: x-large;
 }
 .p-card a {
   color: #ff4b2b;
   color: #295691;
   text-decoration: none;
+  font-size: large;
 }
 .img-container {
   margin-top: 20px;
@@ -190,7 +199,6 @@ footer .copyright {
   color: rgb(143, 143, 148);
   color: chartreuse;
   color: red;
-  width: 100%;
 }
 
 .footer-wrapper ul {
@@ -203,26 +211,24 @@ footer .copyright {
 .footer-wrapper ul li {
   padding: 5px 0;
 }
-.footer-wrapper .terms a{
+.footer-wrapper .terms a {
   color: rgb(143, 143, 149);
 }
-footer hr{
-margin: 0 50px;
+footer hr {
+  margin: 0 50px;
 }
 /* Media Query*/
 
-@media screen and (min-width: 375px) {
-
+@media screen and (max-width: 375px) {
   main {
     display: flex;
     flex-direction: column;
     margin: auto;
   }
-  header {
+  /* header {
     margin-top: 5.3rem;
-   
-  }
- 
+  } */
+
   #header .nav-list ul {
     background: linear-gradient(to right, #ff4b2b, #ff416c);
   }
@@ -251,7 +257,8 @@ margin: 0 50px;
   }
   header {
     margin-top: 5.3rem;
-  } #header .nav-list ul {
+  }
+  #header .nav-list ul {
     background: linear-gradient(to right, #ff4b2b, #ff416c);
   }
   header p,
