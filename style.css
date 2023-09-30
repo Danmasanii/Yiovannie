@@ -173,6 +173,9 @@ a {
     height: auto;
     width: fit-content;
     background-color: transparent;
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+
+  
   }
   #header .nav-list ul li {
     display: inline-block;
